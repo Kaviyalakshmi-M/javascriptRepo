@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(196, 136, 214), rgb(188, 10, 241), yellowgreen, green);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+button{
+    background-color: #f80808;
+    color: rgb(248, 244, 244);
+    font-size: large;
+    padding: 10px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+
+}
+button:hover{
+    background-color: blue;
+}

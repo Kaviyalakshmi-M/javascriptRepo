@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Odd or Even</title>
+        <link rel="stylesheet" href="OddEvenGenerator.css"/>
+    </head>
+    <body>
+        <script>
+            function oddEvenSeries(){
+                let result="";
+                for(let num=1;num<=10;num++){
+                    if(num%2===0){
+                        /*document.write(num+" is an Even Number <br>");
+                        document.write("<br>");*/
+                        result += num + " is an Even Number <br><br>";
+                    }
+                    else{
+                        /*document.write(num+" is an Odd Number <br>");
+                        document.write("<br>");*/
+                        result += num + " is an Odd Number <br><br>";
+                    }
+                }
+                document.getElementById('result').innerHTML=result;
+            }
+        </script>
+
+        <h1>Odd or Even Number Series</h1>
+        <button onclick="oddEvenSeries()">Generate Series</button>
+        <div id="result"></div>
+    </body>
+</html>
